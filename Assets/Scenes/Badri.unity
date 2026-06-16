@@ -4789,7 +4789,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1363220524
 Transform:
   m_ObjectHideFlags: 0
@@ -4817,8 +4817,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 131eb240fc3e5a53dbf38e4c1e433bcf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ObstacleSpawner
-  obstaclePrefabs: []
-  player: {fileID: 0}
+  obstaclePrefabs:
+  - {fileID: 1434694951219791069, guid: 3d3892c710f7fee4c9e490daf3b341c0, type: 3}
+  - {fileID: 3122409028455857555, guid: 05b18266293c52a43bc4047ca1bed1ea, type: 3}
+  poolSize: 10
+  player: {fileID: 1290008322}
   spawnDistanceAhead: 20
   minLateralOffset: -4
   maxLateralOffset: 4
