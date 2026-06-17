@@ -3077,7 +3077,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: fee2037d9c51d444fb068d4013532558, type: 2}
+  - {fileID: 2100000, guid: b65583961ddb6bb47bb639ef2aa31ed1, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5021,20 +5021,21 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1363220522}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 131eb240fc3e5a53dbf38e4c1e433bcf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ObstacleSpawner
   obstaclePrefabs:
-  - {fileID: 0}
+  - {fileID: 3122409028455857555, guid: 05b18266293c52a43bc4047ca1bed1ea, type: 3}
+  - {fileID: 4955178391424144136, guid: c0719976861578342a4b1f1771a6afbc, type: 3}
   poolSize: 10
   player: {fileID: 889591272}
   spawnDistanceAhead: 20
   minLateralOffset: -4
   maxLateralOffset: 4
   initialInterval: 4
-  minInterval: 1.5
+  minInterval: 6
   intervalDecreaseRate: 0.02
 --- !u!1 &1368296175
 GameObject:
@@ -7311,7 +7312,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1856012147}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0474d6fa38d088045b88c93f319194e6, type: 3}
   m_Name: 
