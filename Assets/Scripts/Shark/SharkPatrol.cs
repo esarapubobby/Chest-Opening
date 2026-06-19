@@ -61,7 +61,8 @@ public class SharkPatrol : MonoBehaviour
 
                 if (Time.time >= lastAttackTime + attackCooldown)
                 {
-                    Attack();
+                    if(PlayerShield.instance.state != PlayerShield.SheildState.Active)
+                        Attack();
                 }
             }
         }
