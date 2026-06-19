@@ -490,6 +490,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3109272735893234717}
   - component: {fileID: 9108495351949931082}
+  - component: {fileID: -7051500652264599185}
   m_Layer: 0
   m_Name: Manta Ray Birostris
   m_TagString: MantaRay
@@ -536,6 +537,19 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &-7051500652264599185
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3415597984472738519}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d07cc10be4d4454b9f9a8a8ecbff648, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SeaCreaturesMovement
+  speed: 0.5
 --- !u!1 &3995514972930173458
 GameObject:
   m_ObjectHideFlags: 0

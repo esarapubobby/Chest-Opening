@@ -98,7 +98,7 @@ public class SeaCreaturesSpawner : MonoBehaviour
         }
         creature.transform.position = spawnPos;
         creature.transform.rotation = Quaternion.identity;
-        float randomSizeValue = Random.Range(0.5f, 1.5f);
+        float randomSizeValue = Random.Range(1f, 2f);
         if (creature.CompareTag("MantaRay"))
         {
             randomSizeValue = Random.Range(0.1f, 0.4f);

@@ -1489,6 +1489,7 @@ GameObject:
   - component: {fileID: 4080216637940347187}
   - component: {fileID: 1420371492049190564}
   - component: {fileID: 9100730709836691343}
+  - component: {fileID: -374365503588547817}
   m_Layer: 0
   m_Name: Crab_1_0
   m_TagString: Untagged
@@ -1521,7 +1522,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6279342491504628625}
   serializedVersion: 5
-  m_Mass: 1
+  m_Mass: 5
   m_LinearDamping: 0
   m_AngularDamping: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -1583,6 +1584,19 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.78045917, y: 0.3840655, z: 0.88413143}
   m_Center: {x: 0.07318032, y: 0.19819683, z: -0.057934284}
+--- !u!114 &-374365503588547817
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6279342491504628625}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d07cc10be4d4454b9f9a8a8ecbff648, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SeaCreaturesMovement
+  speed: 1
 --- !u!1 &6795711444689614045
 GameObject:
   m_ObjectHideFlags: 0
